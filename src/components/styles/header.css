@@ -1,0 +1,132 @@
+.ms-header-main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FEF9F6;
+    padding: 20px;
+    font-size: 26px;
+    height: 14vh;
+    border-bottom: 0.5px solid rgb(223, 223, 223);
+    position: fixed;
+  width:100%;
+  top:0%;
+  z-index: 100;
+}
+.ms-header-main-div.open{
+    border-bottom:0;
+}
+.ms-header-div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.ms-header-links-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ms-header-links{
+    padding: 0 35px;
+}
+
+.ms-header-a{
+    font-size: 26px;
+    color: #6B6B78;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.ms-header-a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.ms-header-icon{
+    transform: scale(3);
+    padding-right: 5px;
+}
+.ms-milton-a{
+    color: black;
+}
+
+.ms-header-get-started{
+    background-color: #2E2E2E;
+    color: #fefefe;
+    border-radius: 19px;
+    font-weight: 700;
+    padding: 10px 24px;
+    border: 0px;
+    transition: transform .4s;
+}
+
+.ms-header-get-started:hover{
+    transform: scale(1.1);
+}
+
+.ms-header-login{
+    color: #2E2E2E;
+    background-color:#f1f2f4;
+    border-radius: 19px;
+    font-weight: 700;
+    padding: 10px 11px;
+    border: 0px;
+    margin-right: 5px;
+    transition: transform .4s;
+}
+
+.ms-header-login:hover{
+    transform: scale(1.1);
+}
+
+.ms-header-div-3{
+    display: flex;
+    padding-right: 40px;
+}
+
+.ms-header-navbar-toggler{
+    scale: 2.5;
+}
+
+.ms-header-toggler-div{
+    display: none;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+
+.ms-header-mobile-div{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:12vh;
+    transition: all 2.5s ease;
+    height: 0;
+    width: 100%;
+    /* padding: 10px; */
+}
+.ms-header-mobile-div.open{
+    height: fit-content;
+    border-bottom: 0.5px solid rgb(223, 223, 223);
+}
+
+.ms-header-ana{
+    padding:10px;
+}
+
+@media (max-width:1100px){
+    .ms-header-links-div, .ms-header-div-3{
+        display: none;
+    }
+    .ms-header-toggler-div{
+        display: flex;
+    }
+    .ms-header-mobile-div{
+        display: flex;
+        background-color: #FEF9F6;
+    }
+}
