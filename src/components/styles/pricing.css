@@ -19,9 +19,9 @@
 }
 
 .ms-price-div1-p {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 19.2px;
+    line-height: 16px;
     background-color: #F1F2F4;
     padding: 14px;
     border-radius: 40px;
@@ -44,9 +44,9 @@
     justify-content: center;
 }
 .ms-price-div2-div-p{
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 800;
-    line-height: 98px;
+    line-height: 67.2px;
     padding: 10px;
 }
 
@@ -67,9 +67,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F1F2F4;
-    font-size: 25px;
-    font-weight: 600;
-    padding: 10px 100px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 50px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -107,7 +108,7 @@
 .ms-price-a{
     color: black;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
 }
 .ms-price-month-p,.ms-price-annual-p{
     margin:0;
@@ -124,39 +125,45 @@
 }
 
 .ms-price-card-div1 p{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
     color: black;
     padding: 10px 50px;
     border-radius: 30px;
     width: min-content;
 }
 .ms-price-card-div2 p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
     color: #6B6B78;
     /* padding: 10px 50px; */
     /* border-radius: 30px; */
     /* width: min-content; */
 }
 .ms-price-card-div3 p span{
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 56px;
     color: black;
 }
 .ms-price-card-div3 p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
     color: black;
 }
 .ms-price-card-div4 p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
     color: black;
 }
 .ms-price-card-div5 a{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 600;
+    line-height: 16px;
     color: white;
     /* width: 100%; */
     padding: 15px 30px;
@@ -168,30 +175,36 @@
     justify-content: center;
     align-content: center;
     border-radius: 20px;
+    margin-top: 10px;
 }
 .ms-price-card-div6{
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .ms-price-card-div6 p{
-    font-size: 19px;
+    font-size: 12px;
+    font-weight: 500;
     color: #6B6B78;
 }
 
 .ms-price-card-div7 p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
     color: black;
 }
 
 .ms-price-card-div8 p{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
     color: #6B6B78;
+    margin-top: 10px;
 }
 
 .ms-price-ion{
-    scale: 2.3;
+    scale: 1.5;
     margin-right: 18px;
     color: #C39CF6;
 }
@@ -210,11 +223,20 @@
 
 
 @media only screen and (max-width: 1100px){
+    .ms-price-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
     .ms-price-div1-p {
-        font-size: 18px;
+        font-size: 14px;
+        line-height: 14px;
     }
     .ms-price-div2-div-p{
-        font-size: 50px;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38.4px;
         
     }
     .ms-price-month-annual-wrap{
@@ -222,15 +244,16 @@
         justify-content: space-between;
         align-items: center;
         background-color: #F1F2F4;
-        font-size: 18px;
-        font-weight: 600;
-        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        padding: 5px 10px;
         
     }
     .ms-price-a{
         color: black;
         text-decoration: none;
-        font-size: 22px;
+        font-size: 14px;
     }
     .ms-price-outer-div1{
         display: flex;
@@ -246,6 +269,10 @@
         padding: 40px 20px;
         border-radius: 20px;
         margin-bottom: 40px;
+    }
+    .ms-price-opt-div-div1{
+        display: flex;
+        width:60%;
     }
     
 }

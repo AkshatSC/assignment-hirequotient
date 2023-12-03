@@ -38,7 +38,7 @@ function Pricing() {
                 </div>
             </div>
 
-            <div className="ms-price-opt-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700">
+            <div className="ms-price-opt-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                 <div className="ms-price-opt-div-div1">
                     <div className="ms-price-month-annual-wrap">
                         <div className={`ms-price-month ${isMonthlySelected ? 'active' : ''}`}  onClick={handleMonthlyClick} disabled={isMonthlySelected}>
@@ -55,7 +55,7 @@ function Pricing() {
                 </div>
             </div>
 
-            <div className="ms-price-outer-div1" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700">
+            <div className="ms-price-outer-div1" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                 <div className="ms-price-card">
                     <div className="ms-price-card-div1"><p className="ms-price-color-1">Free</p></div>
 

@@ -55,7 +55,7 @@ function FAQ() {
                 </div>
             </div>
 
-            <div className="ms-faq-ques-outer-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700">
+            <div className="ms-faq-ques-outer-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                 <div className="ms-faq-ques-ans-div">
                     <div className="ms-faq-ques-div">
                         <p className="ms-faq-p1">Can I cancel my subscrition?</p>

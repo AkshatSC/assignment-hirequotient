@@ -22,7 +22,7 @@ function Feature(){
                     <div className="ms-feature-div2">
 
                         <div className="ms-feature-div2-div">
-                                <div data-aos="fade-down" data-aos-duration="600" data-aos-delay="700">
+                                <div data-aos="fade-down" data-aos-duration="600" data-aos-delay="600">
                                     <p className="ms-feature-div2-div-p">Discover your new superpowers</p>
                                 </div>
                         </div>
@@ -31,7 +31,7 @@ function Feature(){
 
                     <div className="ms-feature-div3" >
 
-                        <div className="ms-feature-div3-div1" data-aos="fade-left" data-aos-duration="600" data-aos-delay="900">
+                        <div className="ms-feature-div3-div1" data-aos="fade-left" data-aos-duration="600" data-aos-delay="500">
                             <div className="ms-feature-div3-div1-div1">
                                 <div className="ms-feature-div3-div1-a-div">
                                     <a className="ms-feature-div3-div1-a" href="">Seamless Scheduling</a>
@@ -46,7 +46,7 @@ function Feature(){
 
                         </div>
 
-                        <div className="ms-feature-div3-div2" data-aos="flip-left" data-aos-duration="600" data-aos-delay="1100">
+                        <div className="ms-feature-div3-div2" data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
                             <div className="ms-feature-div3-div2-div">
                                 <img className="ms-feature-div3-div2-div-img" src={image2} alt="image2" />
                             </div>
@@ -64,7 +64,7 @@ function Feature(){
                             </div>
                         </div>
                         <div className="ms-feature-div4">
-                            <div className="ms-feature-div3-div1" data-aos="fade-left" data-aos-duration="600" data-aos-delay="700">
+                            <div className="ms-feature-div3-div1" data-aos="fade-left" data-aos-duration="600" data-aos-delay="600">
                                 <div className="ms-feature-div3-div1-div1">
                                     <div className="ms-feature-div3-div1-a-div">
                                         <a className="ms-feature-div3-div1-a ms-fet-a1" href="#">Smart Reminders & Task</a>
@@ -81,7 +81,7 @@ function Feature(){
 
                             </div>
                             <div className="ms-feature-div3-div3" >
-                                <div className="ms-feature-div3-div3-div" data-aos="fade-right" data-aos-duration="600" data-aos-delay="900">
+                                <div className="ms-feature-div3-div3-div" data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">
                                     <div className="ms-feature-div3-div3-div-div1">
                                         <p className="ms-feature-div3-div3-p1">I love how user-friendly this app is! It's so easy to add events and set reminders!</p>
                                         <p className="ms-feature-div3-div3-p2">Adam, entrepreneur</p>
@@ -120,7 +120,7 @@ function Feature(){
 
                             </div>
                             <div className="ms-feature-div3-div3 ms-feature-2nd-box-modify-flex">
-                                <div className="ms-feature-div3-div3-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1100">
+                                <div className="ms-feature-div3-div3-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                                     <div className="ms-feature-div3-div3-div-div2">
                                         <div></div>
                                         <div><img className="ms-feature-div3-div3-div-div2-img" src={icon2} alt="" /></div>
@@ -153,7 +153,7 @@ function Feature(){
                             </div>
                         </div>
                         <div className="ms-feature-div4">
-                            <div className="ms-feature-div3-div1" data-aos="fade-right" data-aos-duration="600" data-aos-delay="700">
+                            <div className="ms-feature-div3-div1" data-aos="fade-right" data-aos-duration="600" data-aos-delay="600">
                                 <div className="ms-feature-div3-div1-div1">
                                     <div className="ms-feature-div3-div1-a-div">
                                         <a className="ms-feature-div3-div1-a ms-fet-a3" href="#">Smart Reminders & Task</a>
@@ -170,7 +170,7 @@ function Feature(){
 
                             </div>
                             <div className="ms-feature-div3-div3">
-                                <div className="ms-feature-div3-div3-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="1000">
+                                <div className="ms-feature-div3-div3-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                                     <div className="ms-feature-div3-div3-div-div1">
                                         <p className="ms-feature-div3-div3-p1">I've recommended this app to all my friends and colleagues! </p>
                                         <p className="ms-feature-div3-div3-p2">Karl, CTO of a cool startup</p>
@@ -194,7 +194,7 @@ function Feature(){
                         <p className="ms-feature-div1-p">And so much more... 💼</p>
                     </div>
 
-                    <div className="ms-feature-div2" data-aos="fade-up" data-aos-duration="300" data-aos-delay="700">
+                    <div className="ms-feature-div2" data-aos="fade-up" data-aos-duration="300" data-aos-delay="600">
 
                         <div className="ms-feature-div2-div">
                                 <div>
@@ -212,7 +212,7 @@ function Feature(){
 
 
 
-            <div className="ms-feature-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="700">
+            <div className="ms-feature-card" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
 
                 <div className="ms-feature-card-div">
                     <div className="ms-feature-card-img-div">

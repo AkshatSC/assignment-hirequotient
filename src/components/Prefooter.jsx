@@ -25,8 +25,7 @@ function Prefooter() {
             </div>
             <div className="ms-prefoot-main-div" data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
                 <div className="ms-prefoot-p1-div">
-                    <p className="ms-prefoot-p1">Here is your last chance to explain how cool your app is. Focus on</p>
-                    <p className="ms-prefoot-p1">the benefits for your users, not on the prefoots.</p>
+                    <p className="ms-prefoot-p1">Here is your last chance to explain how cool your app is. Focus on the benefits for your users, not on the prefoots.</p>
                 </div>
                 <div className="ms-prefoot-div4">
                         <div className="ms-prefoot-div4-div">

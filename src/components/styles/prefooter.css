@@ -20,9 +20,9 @@
 }
 
 .ms-prefoot-div1-p {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 19.2px;
+    line-height: 16px;
     background-color: #F1F2F4;
     padding: 14px;
     border-radius: 40px;
@@ -45,9 +45,9 @@
     justify-content: center;
 }
 .ms-prefoot-div2-div-p{
-    font-size: 80px;
+    font-size: 56px;
     font-weight: 800;
-    line-height: 98px;
+    line-height: 67.2px;
     padding: 10px;
 }
 
@@ -67,9 +67,10 @@
     margin-bottom: 30px;
 }
 .ms-prefoot-p1{
-    font-size: 28px;
+    font-size: 20px;
     color: #6B6B78 ;
     font-weight: 500;
+    line-height: 32px;
     width: 60%;
 }
 
@@ -80,13 +81,14 @@
 .ms-prefoot-div4-div{
     background-color: #2E2E2E;
     border-radius: 15px;
-    padding: 22px 40px;
+    padding: 15px 25px;
 }
 .ms-prefoot-div4-a{
     color: #FEFEFE;
     text-decoration: none;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32.4px;
 }
 
 
@@ -115,8 +117,9 @@
 }
 
 .ms-prefoot-div3-div3-div-div1 p{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
+    line-height: 22px;
     width: 100%;
 }
 
@@ -141,23 +144,24 @@
 
 @media only screen and (max-width:1100px){
     .ms-prefoot-div1-p {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 700;
-        line-height: 19.2px;
+        line-height: 14px;
         background-color: #F1F2F4;
         padding: 14px;
         border-radius: 40px;
     }
     .ms-prefoot-div2-div-p{
-        font-size: 50px;
+        font-size: 32px;
         font-weight: 800;
-        line-height: 98px;
+        line-height: 38.4px;
         padding: 10px;
     }
     .ms-prefoot-p1{
-        font-size: 25px;
+        font-size: 20px;
         color: #6B6B78 ;
         font-weight: 500;
+        line-height: 32px;
         width: 60%;
     }
     .ms-prefoot-p1-div{
